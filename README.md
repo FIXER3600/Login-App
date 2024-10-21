@@ -125,10 +125,12 @@ As seguintes validações foram implementadas nos formulários:
 ## Imagens do Projeto
 
 ### Tela de Login
-![Tela de Login](path/to/login-screenshot.png)
+![image](https://github.com/user-attachments/assets/d943dd71-bd22-4171-bc0b-74c1d503ebc4)
+
 
 ### Tela de Redefinição de Senha
-![Tela de Redefinição de Senha](path/to/reset-password-screenshot.png)
+![image](https://github.com/user-attachments/assets/00c7f5c1-274e-4a1a-9b0a-9657bce3bc7e)
+
 
 ---
 
