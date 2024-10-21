@@ -1,25 +1,23 @@
-// src/theme.js
 import { extendTheme } from '@chakra-ui/react';
 
-// Definindo as cores personalizadas
 const customTheme = extendTheme({
   colors: {
     gray: {
-      500: '#718096',  // Definindo o valor de cinza
+      500: '#718096',  
     },
     blue: {
-      500: '#007AF5',  // Definindo o valor de azul
+      500: '#007AF5',  
     },
     black: {
-      500: '#000000',  // Definindo o valor de preto
+      500: '#000000', 
     },
     white: {
-      500: '#FFFFFF',  // Definindo o valor de branco
+      500: '#FFFFFF', 
     },
   },
   fonts: {
-	button: `'VisbyBold', sans-serif`,  // Para títulos
-	body: `'Inter', sans-serif`,     // Para o corpo do texto
+	button: `'VisbyBold', sans-serif`,  
+	body: `'Inter', sans-serif`,    
       },
 });
 

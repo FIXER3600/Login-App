@@ -1,6 +1,6 @@
 import ConfigRoutes from './routes/routes';
 import { ChakraProvider } from '@chakra-ui/react';
-import customTheme from './theme';  // Importando o tema personalizado
+import customTheme from './theme'; 
 
 function App() {
   return (

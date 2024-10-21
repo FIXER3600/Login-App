@@ -23,26 +23,19 @@ const Login = () => {
 	const handleSubmit = (e) => {
 		e.preventDefault();
 		setError('');
-	    
-		// Simulação de validação de login
 		if (!email || !password) {
 		  setError('Por favor, preencha todos os campos.');
 		  return;
 		}
-	    
-		 // Valida o email
 		 if (!validateEmail(email)) {
 			setError('Email inválido. Deve conter um número, um "@" e terminar com ".com".');
 			return;
 		      }
-		  
-		      // Valida a senha
 		      if (!validatePassword(password)) {
 			setError('A senha deve ter pelo menos 6 caracteres, uma letra, um número e um caracter especial.');
 			return;
 		      }
-	    
-		// Se a validação for bem-sucedida, você pode prosseguir
+
 		toast({
 		  title: 'Login bem-sucedido!',
 		  description: "Você está agora logado.",
@@ -50,8 +43,7 @@ const Login = () => {
 		  duration: 3000,
 		  isClosable: true,
 		});
-	    
-		// Limpar campos
+
 		setEmail('');
 		setPassword('');
 	      };
