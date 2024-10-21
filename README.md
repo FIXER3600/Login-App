@@ -1,6 +1,6 @@
 # Projeto de Tela de Login e Redefinição de Senha
 
-Este projeto consiste em duas telas desenvolvidas para uma aplicação web: uma **Tela de Login** e uma **Tela de Redefinição de Senha**. O design segue as especificações fornecidas, utilizando cores, fontes e ícones fornecidos no layout do Figma (https://www.figma.com/design/rV6DpvdAcAAgTqMTj1R6nr/Teste-de-conhecimentos?node-id=1-432&node-type=frame&t=7XU44cdFukgeeR2v-0).
+Este projeto consiste em duas telas desenvolvidas para uma aplicação web: uma **Tela de Login** e uma **Tela de Redefinição de Senha**. O design segue as especificações fornecidas, utilizando cores, fontes e ícones fornecidos no layout do Figma.
 
 ## Índice
 
@@ -31,7 +31,7 @@ O projeto consiste em:
 
 ## Layout do Projeto
 
-O layout segue o design fornecido no [Figma](#). As cores, fontes e elementos visuais seguem exatamente as especificações:
+O layout segue o design fornecido no [Figma]([#](https://www.figma.com/design/rV6DpvdAcAAgTqMTj1R6nr/Teste-de-conhecimentos?node-id=1-432&node-type=frame&t=7XU44cdFukgeeR2v-0)). As cores, fontes e elementos visuais seguem exatamente as especificações:
 
 - **Cores**:
   - Cinza: `#718096`
@@ -57,8 +57,8 @@ O layout segue o design fornecido no [Figma](#). As cores, fontes e elementos vi
 - **HTML5** para a estrutura básica do projeto.
 - **CSS3** para a estilização e responsividade.
 - **JavaScript** para validações e interatividade.
-- **React (opcional)** ou **NextJS** como framework para gerenciamento de componentes e renderização (se implementado).
-- **Chakra UI (opcional)** para a estilização de componentes de forma eficiente.
+- **React** como framework para gerenciamento de componentes e renderização.
+- **Chakra UI** para a estilização de componentes de forma eficiente.
 
 ## Pré-requisitos
 
@@ -81,7 +81,7 @@ Siga os passos abaixo para clonar o repositório e configurar o ambiente:
    cd projeto-tela-login
    ```
 
-3. Se estiver usando React ou Next.js, instale as dependências:
+3. Instale as dependências:
    ```bash
    npm install
    # ou
@@ -91,8 +91,6 @@ Siga os passos abaixo para clonar o repositório e configurar o ambiente:
 ## Como Executar
 
 Para rodar o projeto localmente:
-
-### Caso seja um projeto React/Next.js:
 
 1. Execute o servidor de desenvolvimento:
    ```bash
@@ -105,10 +103,6 @@ Para rodar o projeto localmente:
    ```
    http://localhost:3000
    ```
-
-### Caso seja apenas HTML, CSS e JavaScript:
-
-1. Abra o arquivo `index.html` no seu navegador preferido.
 
 ## Validações
 
@@ -131,24 +125,5 @@ As seguintes validações foram implementadas nos formulários:
 ### Tela de Redefinição de Senha
 ![image](https://github.com/user-attachments/assets/00c7f5c1-274e-4a1a-9b0a-9657bce3bc7e)
 
-
----
-
-## Observações
-
-- O projeto foi desenvolvido dentro do prazo de 1h30, priorizando a implementação de boas práticas de código e a fidelidade ao design.
-- O back-end não foi implementado, mas os formulários estão preparados para integrações futuras.
-
----
-
-## Contribuições
-
-Sinta-se à vontade para contribuir com melhorias ou novas funcionalidades. Para isso, siga os passos:
-
-1. Faça um **fork** do projeto.
-2. Crie uma nova branch: `git checkout -b feature/nova-feature`.
-3. Faça o commit das suas alterações: `git commit -m 'Adiciona nova feature'`.
-4. Envie para o repositório original: `git push origin feature/nova-feature`.
-5. Abra um **Pull Request**.
 
 ---
