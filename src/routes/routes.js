@@ -6,7 +6,7 @@ const ConfigRoutes = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/login" element={<Login />} />
+        <Route path="/" element={<Login />} />
 	<Route path="/recoverPassword" element={<RecoverPassword />} />
       </Routes>
     </BrowserRouter>

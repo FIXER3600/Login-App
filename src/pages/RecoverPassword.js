@@ -51,7 +51,7 @@ const RecoverPassword = () => {
     </InputRightElement>
       </InputGroup>
       <CustomButton color={'white.500'} text={'Atualizar senha'} backgroundColor={'blue.500'} width={'422px'}/>
-	<Link href='/login' >
+	<Link to='/' >
               <CustomButton color={'blue.500'} isOutline={true} text={'Cancelar'} width={'422px'} />
 	</Link>
 	
